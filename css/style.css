@@ -1,0 +1,1245 @@
+/* All Commom CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Commom CSS End */
+
+/* top header Part Start */
+#topHeaderPart {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.topheaderflex {
+    display: flex;
+    padding-left: 200px;
+}
+
+.topflex1 p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #FAFAFA;
+    padding-top: 8px;
+}
+
+.topflex2 a {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #FAFAFA;
+    transition: .4s;
+}
+
+.topflex2 {
+    padding-left: 8px;
+    display: flex;
+}
+
+.topflex2 a:hover {
+    color: #DB4444;
+}
+
+.topflex3 {
+    padding-left: 250px;
+}
+
+.topflex3 p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #FAFAFA;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+.topflex4 a i {
+    color: #FAFAFA;
+    margin-top: -5px;
+}
+
+/* top header Part End */
+
+
+
+/*navbar  Part Start */
+.navbar {
+    padding: 40px 0 20px;
+    background-color: #FFFF;
+    /* width: 100%;
+    position: fixed; */
+}
+
+.navbar-nav {
+    padding-left: 140px;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    transition: .4s;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link:hover {
+    color: #DB4444;
+}
+
+.advance-form {
+    padding: 10px 30px 10px 20px !important;
+    background-color: #F5F5F5;
+}
+
+input::placeholder {
+    font-size: 12px !important;
+    color: hwb(0 0% 100% / 0.575);
+    font-weight: 400;
+    font-family: "Poppins", serif;
+
+}
+
+.d-flex a {
+    color: #000000;
+    position: absolute;
+
+}
+
+.d-flex a i {
+    padding-left: 205px;
+    padding-top: 18px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.topIconflex {
+    display: flex;
+}
+
+.topIconFlex1 i {
+    font-size: 25px;
+    padding-left: 30px;
+    color: #000;
+    transition: .4s;
+}
+
+.topIconFlex1 i:hover {
+    color: #DB4444;
+}
+
+.navbardag {
+    height: 5px;
+    width: 100%;
+    background-color: #DB4444;
+    margin-top: 50px;
+}
+
+/* sticky header part start  */
+/* .sticky_header {
+    background: #000000;
+    animation: ibrahim 1s;
+}
+
+@keyframes ibrahim {
+    from {
+        top: -300px;
+    }
+
+    to {
+        top: 0;
+    }
+} */
+
+/* sticky header part end  */
+
+/* backkk to top part start */
+.back-to-top i {
+    color: red;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 40px;
+}
+
+/* backkk to top part end */
+
+
+/* navbar Part End */
+
+
+
+/* header  Part Start */
+#headerPart {
+    padding-bottom: 130px;
+    /* padding-top: 106px; */
+}
+
+.headerDag {
+    padding-top: 1px;
+    width: 100%;
+    background-color: hwb(0 0% 100% / 0.2);
+}
+
+.headeritem ul li .padding1 {
+    padding-right: 40px;
+}
+
+.headeritem ul li .padding2 {
+    padding-right: 67px;
+}
+
+.headeritem {
+    padding-top: 50px;
+}
+
+.headeritem ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    transition: .4s;
+    padding: 8px 0;
+}
+
+.headeritem ul li a:hover {
+    color: red;
+}
+
+.headeritemPart {
+    border-right: 1px solid hwb(0 0% 100% / 0.2);
+
+}
+
+.headerimgPart {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.headerimg {
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: #000000;
+    width: 100%;
+}
+
+.headerflex1 {
+    display: flex;
+    padding-top: 30px;
+}
+
+.headerflex3 i {
+    font-size: 60px;
+    color: #FFFF;
+    padding-right: 30px;
+}
+
+.headerflex4 h3 {
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 27px;
+}
+
+.headerdiscount {
+    padding-top: 30px;
+}
+
+.headerdiscount h2 {
+    color: #FAFAFA;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+
+.discountflex {
+    display: flex;
+}
+
+.discountflex1 a {
+    text-decoration: underline;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    padding-left: 8px;
+    transition: .4s;
+}
+
+.discountflex1 a:hover {
+    color: red;
+}
+
+.discountflex2 i {
+    color: #F5F5F5;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+/* header  Part End */
+
+
+
+/* flash sell Part Start */
+#flash-sellPart {
+    padding-bottom: 100px;
+}
+
+.flashflex {
+    display: flex;
+}
+
+.flashflex1 {
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: #DB4444;
+}
+
+.flashflex2 h4 {
+    color: #DB4444;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    padding-top: 14px;
+    padding-left: 20px;
+}
+
+.flashsell h3 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.flash-icons {
+    display: flex;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+.flash-icon1 i {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    color: #000000;
+    transition: .4s;
+}
+
+.flash-icon2 i {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    color: #000000;
+    margin-left: 15px;
+    transition: .4s;
+
+}
+
+.flash-icon2 i:hover {
+    color: #F5F5F5;
+    background-color: #DB4444;
+}
+
+.flash-icon1 i:hover {
+    color: #F5F5F5;
+    background-color: #DB4444;
+}
+
+.flashitemPart {
+    padding: 10px 0 0;
+    background-color: #F5F5F5;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.flashitempadding {
+    display: flex;
+}
+
+.flashitempadding1 p {
+    color: #FFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #DB4444;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+.flashitempadding2 {
+    padding-left: 134px;
+    padding-top: 5px;
+}
+
+.flashitempadding2 i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flashitemPart img {
+    margin-top: -45px;
+    margin-left: 70px;
+    transition: .4s;
+}
+
+.flashitemPart a {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    transition: .4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.flashitemPart a:hover {
+    background-color: #FAFAFA;
+    border: 1px solid #DB4444;
+    color: #DB4444;
+}
+
+.add-to-cart:hover .flashitemPart a {
+    visibility: visible;
+    opacity: 1;
+}
+
+.add-to-cart:hover .flashitemPart img {
+    margin-bottom: 40px;
+}
+
+.add-to-cart:hover .flashitempadding1 p {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.newpart h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 20px;
+}
+
+.newflex {
+    display: flex;
+    padding-top: 10px;
+}
+
+.newflex1 h4 {
+    color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 7px;
+}
+
+.newflex2 del {
+    color: hwb(0 0% 100% / 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.newflex1 i {
+    color: #FFAD33;
+}
+
+.newflex2 p {
+    color: hwb(0 0% 100% / 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.viewbtn a {
+    text-align: center;
+    padding: 20px 35px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: .4s;
+}
+
+.viewbtn a:hover {
+    color: #DB4444;
+    background-color: #FAFAFA;
+    border: 1px solid #DB4444;
+}
+
+.viewbtn {
+    text-align: center;
+}
+
+.viewdag {
+    padding-top: 1px;
+    width: 100%;
+    background-color: hwb(0 0% 100% / 0.275);
+    margin-top: 60px;
+}
+
+/* flash sell Part End */
+
+
+
+/* browse Part Start */
+#browsePart {
+    padding-bottom: 100px;
+}
+
+.browseitem {
+    padding: 30px;
+    border: 1px solid hwb(0 0% 100% / 0.275);
+    border-radius: 10px;
+}
+
+.browseitem i {
+    font-size: 40px;
+    transition: .4s;
+}
+
+.browseitem p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+.browseitem {
+    transition: .4s;
+}
+
+.browsehover {
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.browsehover:hover {
+    background-color: #DB4444;
+    border-radius: 10px;
+}
+
+.browsehover:hover .browseitem p {
+    color: #FAFAFA;
+}
+
+.browsehover:hover .browseitem i {
+    color: #FAFAFA;
+}
+
+.viewdag2 {
+    padding-top: 1px;
+    width: 100%;
+    background-color: hwb(0 0% 100% / 0.175);
+    margin-top: 80px;
+}
+
+.viewbtn2 a {
+    text-align: center;
+    padding: 20px 35px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    border-radius: 10px;
+    margin-top: 65px;
+    transition: .4s;
+    margin-left: 500px;
+    transition: .4s;
+}
+
+.viewbtn2 a:hover {
+    color: #DB4444;
+    border: 1px solid #DB4444;
+    background-color: #F5F5F5;
+}
+
+/*browse Part End */
+
+
+
+/* music item Part Start */
+#musicPart {
+    padding-bottom: 100px;
+}
+
+.musicitemPart {
+    padding: 40px 30px 40px 50px;
+    background-color: #000000;
+    width: 100%;
+}
+
+.musicleftitem h3 {
+    color: #00FF66;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.musicleftitem h2 {
+    color: #FAFAFA;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    margin-top: 20px;
+}
+
+.musicflexitem {
+    display: flex;
+    padding-top: 35px;
+    gap: 20px;
+    align-items: center;
+}
+
+.musicflex1 {
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.musicflex1 h2 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+
+.musicflex1 h4 {
+    color: #000000;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 5px;
+}
+
+.counterPart h2 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-bottom: 8px;
+}
+
+.counterPart {
+    padding-top: 44px;
+    text-align: center;
+}
+
+.counterPart h3 {
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    margin-top: 15px;
+}
+
+.musicbtn {
+    padding-top: 50px;
+}
+
+.musicbtn a {
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: #00FF66;
+    transition: .4s;
+}
+
+.musicbtn a:hover {
+    color: #00FF66;
+    background-color: #FFFFFF;
+    border: 1px solid #00FF66;
+    border-radius: 5px;
+}
+
+.flashitempadding1 h4 {
+    color: #FFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #DB4444;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .4s;
+    visibility: hidden;
+}
+
+.viewbtn5 a {
+    text-align: center;
+    padding: 18px 63px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    border-radius: 5px;
+    margin-top: 100px;
+    transition: .4s;
+}
+
+.viewbtn5 a:hover {
+    color: #DB4444;
+    background-color: #F5F5F5;
+    border: 1px solid #DB4444;
+    border-radius: 5px;
+}
+
+/* music item Part End */
+
+
+
+/* New Arrival Part Start */
+#new-ArrivalPart {
+    padding-bottom: 150px;
+}
+
+.new-ArrivalItem {
+    padding: 70px 30px 0;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.new-ArrivalItem img {
+    margin-left: 35px;
+}
+
+.new-ArrivalProduct h3 {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    position: absolute;
+    margin-top: -160px;
+    transition: .4s;
+}
+
+.new-ArrivalProduct p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    position: absolute;
+    margin-top: -123px;
+    width: 13%;
+    line-height: 20px;
+    transition: .4s;
+}
+
+.new-ArrivalProduct a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    position: absolute;
+    margin-top: -70px;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.new-ArrivalProduct a:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct p:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct h3:hover {
+    color: #DB4444;
+}
+
+.new-arrival2nd {
+    padding-left: 20px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.new-ArrivalProduct2nd {
+    padding-top: 130px;
+}
+
+.new-ArrivalProduct2nd h3 {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    transition: .4s;
+}
+
+.new-ArrivalProduct2nd p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    line-height: 20px;
+    transition: .4s;
+    margin-top: 20px;
+    margin-right: 66px;
+}
+
+.new-ArrivalProduct2nd a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    text-decoration: underline;
+    transition: .4s;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.new-ArrivalProduct2nd a:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct2nd p:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct2nd h3:hover {
+    color: #DB4444;
+}
+
+.new-Arrival3rd {
+    padding: 20px;
+    background-color: #000000;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.new-Arrival3rd img {
+    margin-left: 35px;
+}
+
+.new-ArrivalProduct3rd h3 {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    position: absolute;
+    margin-top: -85px;
+    transition: .4s;
+}
+
+.new-ArrivalProduct3rd p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    position: absolute;
+    margin-top: -50px;
+    transition: .4s;
+}
+
+.new-ArrivalProduct3rd a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    position: absolute;
+    margin-top: -35px;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.new-ArrivalProduct3rd a:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct3rd p:hover {
+    color: #DB4444;
+}
+
+.new-ArrivalProduct3rd h3:hover {
+    color: #DB4444;
+}
+
+/* New Arrival Part End */
+
+
+
+/* Service Part Start */
+#service-Part {
+    padding-bottom: 150px;
+}
+.service-item{
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.serviceBorder {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: hwb(270 18% 81% / 0.432);
+    width: 25%;
+    margin-left: 103px;
+}
+.serviceBorder i{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+.service-item h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    margin-top: 30px;
+}
+.service-item p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 15px;
+}
+/* Service Part End */
+
+/* About Part Start */
+#about-Part{
+    padding-top: 80px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 50px;
+}
+.about-items h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 25px;
+}
+.about-items p{
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.about-items input{
+   padding: 10px 0 10px 10px;
+   background: transparent;
+   border: 1px solid #FAFAFA;
+   border-radius: 5px;
+   color: #FFFFFF;
+}
+.about-items input::placeholder{
+    color: hwb(0 96% 4% / 0.644);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+}
+.about-items a{
+    color: #F5F5F5;
+    rotate:65deg;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+.aboutlastPart p{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-bottom: 40px;
+}
+.aboutlastPart h4{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+   margin-top: 15px;
+}
+.aboutlastPart h3{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+}
+.aboutlastPart h5{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+}
+.aboutmenuPart p{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif; 
+    margin-bottom: 30px;
+}
+.aboutmenuPart ul li a{
+    color: #FAFAFA;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", serif; 
+    padding: 10px 0;
+    transition: .4s;
+}
+.aboutmenuPart ul li a:hover{
+    color: #DB4444;
+}
+.about-imgPart p{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif; 
+    margin-bottom: 47px;
+}
+.about-imgPart h3{
+    color: hwb(0 98% 2% / 0.714);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Poppins", serif; 
+    margin-bottom: 15px;
+}
+.aboutseshpart img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.img img{
+    margin-left: 13px;
+}
+.abouticons{
+    display: flex;
+}
+.abouticons a i{
+    color: #FAFAFA;
+    font-size: 25px;
+    padding: 0 15px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.abouticons a i:hover{
+    color: #DB4444;
+}
+
+
+
+
+
+
+/* About Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
