@@ -1,18 +1,681 @@
 /* Extra large devices */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}
 
 
 /* Large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .topflex1 p {
+        margin-left: -208px;
+        font-size: 11px;
+        width: 373px;
+    }
+    .topheaderflex {
+        padding-left: 288px;
+    }
+
+    .topflex2 a {
+        margin-left: -5px;
+        width: 75px;
+    }
+
+    .topflex3 {
+        padding-left: 25px !important;
+    }
+
+    .navbar {
+        padding: 10px 0 20px;
+    }
+
+    .nav-item {
+        padding: 0 170px;
+    }
+
+    .navbar-nav {
+        background-color: teal;
+    }
+
+    .d-flex a i {
+        padding-left: 185px;
+    }
+
+    .topIconFlex1 i {
+        visibility: hidden;
+    }
+
+    .headeritem {
+        padding-top: 10px;
+    }
+
+    .headeritem {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .headerflex3 i {
+            font-size: 50px;
+            padding-right: 30px;
+        
+    }
+
+    .headerflex4 h3 {
+        font-size: 20px;
+        margin-top: 21px;
+    }
+
+    .headerdiscount h2 {
+        font-size: 45px;
+        padding-left: 15px;
+        padding-bottom: 19px;
+        margin-top: 20px;
+    }
+
+    .headerdiscount {
+        padding-top: 10px;
+    }
+
+    .discountflex1 a {
+        padding-left: 18px;
+    }
+
+    #headerPart {
+        padding-bottom: 30px;
+        /* padding-top: 106px; */
+    }
+
+    .flashsell h3 {
+        margin-bottom: 0px;
+    }
+
+    .counterPart {
+        /* padding-top: 0px;
+        text-align: center; */
+    }
+
+    .top-header-img img {
+        margin-left: 40px;
+    }
+
+    .flashitempadding2 i {
+        margin-left: 390px;
+    }
+
+    .flashitemPart img {
+        margin-left: 270px;
+    }
+    .discountflex1 a {
+        font-size: 23px;
+    }
+    .discountflex2 i {
+        padding-top: 11px;
+    }
+
+    .newflex2 p {
+        margin-bottom: 20px;
+    }
+
+    .viewbtn a {
+        padding: 20px 25px;
+        font-size: 13px;
+        margin-top: 0px;
+        transition: .4s;
+    }
+    .viewdag {
+        margin-top: 20px;
+    }
+    .flashflex {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    #flash-sellPart {
+        padding-bottom: 20px;
+    }
+    .flashsell h3 {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .flash-icons {
+        display: flex;
+        margin-top: -109px;
+        padding-left: 576px;
+        margin-bottom: 30px;
+    }
+    .browseitem {
+        margin-bottom: 20px;
+    }
+    .viewdag2 {
+        margin-top: 40px;
+    }
+    #browsePart {
+        padding-bottom: 0px;
+    }
+    .viewbtn2 a {
+        margin-top: -20px;
+        margin-left: 380px;
+        padding: 15px 25px;
+        font-size: 13px;
+        visibility: hidden;
+    }
+    .musicleftitem h3 {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .musicleftitem h2 {
+       
+        font-size: 30px;
+    }
+    .musicbtn a {
+        font-size: 22px;
+        padding: 16px 40px;
+    }
+    .musicbtn {
+        padding-top: 35px;
+    }
+    .music-img-23 img{
+        margin-left: -10px;
+    }
+    #musicPart {
+        padding-bottom: 10px;
+    }
+    .viewbtn5 a {
+        padding: 20px 30px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .new-ArrivalItem {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .new-ArrivalProduct p {
+        width: 37%;
+    }
+    #new-ArrivalPart {
+        padding-bottom: 40px;
+    }
+    .serviceBorder {
+        padding: 56px;
+        width: 25%;
+        margin-left: 251px;
+    }
+    .service-item p {
+        margin-bottom: 10px;
+    }
+    .new-Arrival3rd {
+        margin-bottom: 20px;
+    }
+    #service-Part {
+        padding-bottom: 30px;
+    }
+    #about-Part {
+        padding-top: 20px;
+        padding-bottom: 22px;
+    }
+    .about-items p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .aboutlastPart p {
+        margin-top: 30px;
+    }
+    .aboutlastPart p {
+        margin-bottom: 20px;
+    }
+    .aboutmenuPart p {
+        margin-bottom: 0px;
+        margin-top: 31px;
+    }
+    .aboutmenuPart ul li a {
+        padding: 5px 0;
+    }
+    .aboutseshpart img {
+        margin-top: 10px;
+    }
+
+}
 
 
 /* Small devices */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .topflex1 p {
+        margin-left: -208px;
+        font-size: 11px;
+        width: 373px;
+    }
+
+    .topflex2 a {
+        margin-left: -5px;
+        width: 75px;
+    }
+
+    .topflex3 {
+        padding-left: 25px !important;
+    }
+
+    .navbar {
+        padding: 10px 0 20px;
+    }
+
+    .nav-item {
+        padding: 0 80px;
+    }
+
+    .navbar-nav {
+        background-color: teal;
+    }
+
+    .d-flex a i {
+        padding-left: 185px;
+    }
+
+    .topIconFlex1 i {
+        visibility: hidden;
+    }
+
+    .headeritem {
+        padding-top: 10px;
+    }
+
+    .headeritem {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .headerflex3 i {
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    .headerflex4 h3 {
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    .headerdiscount h2 {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-bottom: 19px;
+    }
+
+    .headerdiscount {
+        padding-top: 10px;
+    }
+
+    .discountflex1 a {
+        padding-left: 18px;
+    }
+
+    #headerPart {
+        padding-bottom: 30px;
+        /* padding-top: 106px; */
+    }
+
+    .flashsell h3 {
+        margin-bottom: 0px;
+    }
+
+    .counterPart {
+        /* padding-top: 0px;
+        text-align: center; */
+    }
+
+    .top-header-img img {
+        margin-left: -51px;
+    }
+
+    .flashitempadding2 i {
+        margin-left: 242px;
+    }
+
+    .flashitemPart img {
+        margin-left: 166px;
+    }
+
+    .newflex2 p {
+        margin-bottom: 20px;
+    }
+
+    .viewbtn a {
+        padding: 20px 25px;
+        font-size: 13px;
+        margin-top: 0px;
+        transition: .4s;
+    }
+    .viewdag {
+        margin-top: 20px;
+    }
+    .flashflex {
+        margin-top: 30px;
+    }
+    #flash-sellPart {
+        padding-bottom: 20px;
+    }
+    .flashsell h3 {
+        font-size: 28px;
+    }
+    .flash-icons {
+        display: flex;
+        margin-top: -109px;
+        padding-left: 422px;
+        margin-bottom: 30px;
+    }
+    .browseitem {
+        margin-bottom: 20px;
+    }
+    .viewdag2 {
+        margin-top: 40px;
+    }
+    #browsePart {
+        padding-bottom: 0px;
+    }
+    .viewbtn2 a {
+        margin-top: -20px;
+        margin-left: 380px;
+        padding: 15px 25px;
+        font-size: 13px;
+        visibility: hidden;
+    }
+    .musicleftitem h3 {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .musicleftitem h2 {
+       
+        font-size: 21px;
+    }
+    .musicbtn a {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+    .musicbtn {
+        padding-top: 20px;
+    }
+    .music-img-23 img{
+        margin-left: -61px;
+    }
+    #musicPart {
+        padding-bottom: 10px;
+    }
+    .viewbtn5 a {
+        padding: 18px 20px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .new-ArrivalItem {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .new-ArrivalProduct p {
+        width: 37%;
+    }
+    #new-ArrivalPart {
+        padding-bottom: 40px;
+    }
+    .serviceBorder {
+        padding: 40px;
+        width: 25%;
+        margin-left: 183px;
+    }
+    .service-item p {
+        margin-bottom: 10px;
+    }
+    .new-Arrival3rd {
+        margin-bottom: 20px;
+    }
+    #service-Part {
+        padding-bottom: 30px;
+    }
+    #about-Part {
+        padding-top: 20px;
+        padding-bottom: 22px;
+    }
+    .about-items p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .aboutlastPart p {
+        margin-top: 30px;
+    }
+    .aboutlastPart p {
+        margin-bottom: 20px;
+    }
+    .aboutmenuPart p {
+        margin-bottom: 0px;
+        margin-top: 31px;
+    }
+    .aboutmenuPart ul li a {
+        padding: 5px 0;
+    }
+    .aboutseshpart img {
+        margin-top: 10px;
+    }
+
+}
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+    .topflex1 p {
+        margin-left: -208px;
+        font-size: 11px;
+        width: 373px;
+    }
+
+    .topflex2 a {
+        margin-left: -5px;
+        width: 75px;
+    }
+
+    .topflex3 {
+        padding-left: 25px !important;
+    }
+
+    .navbar {
+        padding: 10px 0 20px;
+    }
+
+    .nav-item {
+        padding: 0 80px;
+    }
+
+    .navbar-nav {
+        background-color: teal;
+    }
+
+    .d-flex a i {
+        padding-left: 185px;
+    }
+
+    .topIconFlex1 i {
+        visibility: hidden;
+    }
+
+    .headeritem {
+        padding-top: 10px;
+    }
+
+    .headeritem {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .headerflex3 i {
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    .headerflex4 h3 {
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    .headerdiscount h2 {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-bottom: 19px;
+    }
+
+    .headerdiscount {
+        padding-top: 10px;
+    }
+
+    .discountflex1 a {
+        padding-left: 18px;
+    }
+
+    #headerPart {
+        padding-bottom: 30px;
+        /* padding-top: 106px; */
+    }
+
+    .flashsell h3 {
+        margin-bottom: 0px;
+    }
+
+    .counterPart {
+        /* padding-top: 0px;
+        text-align: center; */
+    }
+
+    .top-header-img img {
+        margin-left: -51px;
+    }
+
+    .flashitempadding2 i {
+        margin-left: 242px;
+    }
+
+    .flashitemPart img {
+        margin-left: 166px;
+    }
+
+    .newflex2 p {
+        margin-bottom: 20px;
+    }
+
+    .viewbtn a {
+        padding: 20px 25px;
+        font-size: 13px;
+        margin-top: 0px;
+        transition: .4s;
+    }
+    .viewdag {
+        margin-top: 20px;
+    }
+    .flashflex {
+        margin-top: 30px;
+    }
+    #flash-sellPart {
+        padding-bottom: 20px;
+    }
+    .flashsell h3 {
+        font-size: 28px;
+    }
+    .flash-icons {
+        display: flex;
+        margin-top: -109px;
+        padding-left: 422px;
+        margin-bottom: 30px;
+    }
+    .browseitem {
+        margin-bottom: 20px;
+    }
+    .viewdag2 {
+        margin-top: 40px;
+    }
+    #browsePart {
+        padding-bottom: 0px;
+    }
+    .viewbtn2 a {
+        margin-top: -20px;
+        margin-left: 380px;
+        padding: 15px 25px;
+        font-size: 13px;
+        visibility: hidden;
+    }
+    .musicleftitem h3 {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .musicleftitem h2 {
+       
+        font-size: 21px;
+    }
+    .musicbtn a {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+    .musicbtn {
+        padding-top: 20px;
+    }
+    .music-img-23 img{
+        margin-left: -61px;
+    }
+    #musicPart {
+        padding-bottom: 10px;
+    }
+    .viewbtn5 a {
+        padding: 18px 20px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .new-ArrivalItem {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .new-ArrivalProduct p {
+        width: 37%;
+    }
+    #new-ArrivalPart {
+        padding-bottom: 40px;
+    }
+    .serviceBorder {
+        padding: 40px;
+        width: 25%;
+        margin-left: 183px;
+    }
+    .service-item p {
+        margin-bottom: 10px;
+    }
+    .new-Arrival3rd {
+        margin-bottom: 20px;
+    }
+    #service-Part {
+        padding-bottom: 30px;
+    }
+    #about-Part {
+        padding-top: 20px;
+        padding-bottom: 22px;
+    }
+    .about-items p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .aboutlastPart p {
+        margin-top: 30px;
+    }
+    .aboutlastPart p {
+        margin-bottom: 20px;
+    }
+    .aboutmenuPart p {
+        margin-bottom: 0px;
+        margin-top: 31px;
+    }
+    .aboutmenuPart ul li a {
+        padding: 5px 0;
+    }
+    .aboutseshpart img {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+}

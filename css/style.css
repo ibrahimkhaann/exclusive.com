@@ -170,12 +170,12 @@ input::placeholder {
 }
 
 /* sticky header part start  */
-/* .sticky_header {
-    background: #000000;
+/* .sticky_header{
+    background: teal;
     animation: ibrahim 1s;
 }
 
-@keyframes ibrahim {
+@keyframes ibrahim{
     from {
         top: -300px;
     }
@@ -1105,6 +1105,9 @@ input::placeholder {
 }
 .abouticons a i:hover{
     color: #DB4444;
+}
+.counterPart{
+    width: 10%;
 }
 
 
