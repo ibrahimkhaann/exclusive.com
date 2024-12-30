@@ -13,6 +13,10 @@
         font-size: 11px;
         width: 373px;
     }
+    *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
     
     .topheaderflex {
         padding-left: 288px;
